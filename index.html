@@ -3,74 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Safety Button</title>
+<title>Safety Button — Personal Emergency Alert Device</title>
+<meta name="description" content="Safety Button is a personal emergency alert device. When the button is pressed, it sends a text message and automated voice call with location to the family members the owner has designated.">
 <style>
-  :root {
-    --ink: #16181d;
-    --muted: #5b6270;
-    --rule: #dfe3ea;
-    --bg: #ffffff;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  }
-  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
-  h1 { font-size: 1.75rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -0.01em; }
-  .updated { color: var(--muted); font-size: .875rem; margin: 0 0 2.5rem; }
-  h2 {
-    font-size: .8125rem; text-transform: uppercase; letter-spacing: .08em;
-    color: var(--muted); font-weight: 600;
-    margin: 2.5rem 0 .75rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
-  }
-  p, li { margin: 0 0 1rem; }
-  ul { padding-left: 1.25rem; }
-  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .875rem; }
-  a { color: inherit; }
+  :root { --ink:#16181d; --muted:#5b6270; --rule:#dfe3ea; --accent:#1c4fd8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#fff; color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:3rem 1.5rem 5rem; }
+  nav { max-width:44rem; margin:0 auto; padding:1.25rem 1.5rem 0; font-size:.875rem; }
+  nav a { color:var(--accent); text-decoration:none; margin-right:1.25rem; }
+  nav a:hover { text-decoration:underline; }
+  h1 { font-size:2rem; line-height:1.15; margin:0 0 .5rem; letter-spacing:-.015em; }
+  .tagline { color:var(--muted); font-size:1.0625rem; margin:0 0 2.5rem; }
+  h2 { font-size:.8125rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+    font-weight:600; margin:2.5rem 0 .75rem; padding-top:1.25rem; border-top:1px solid var(--rule); }
+  p, li { margin:0 0 1rem; }
+  ul { padding-left:1.25rem; }
+  .callout { background:#f6f8fb; border:1px solid var(--rule); border-radius:8px; padding:1.25rem 1.25rem .35rem; }
+  footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--rule);
+    color:var(--muted); font-size:.875rem; }
+  a { color:var(--accent); }
 </style>
 </head>
 <body>
+<nav>
+  <a href="./">Home</a><a href="./privacy.html">Privacy Policy</a><a href="./terms.html">Messaging Terms</a>
+</nav>
 <main>
-  <h1>Privacy Policy</h1>
-  <p class="updated">Safety Button · Last updated 25 July 2026</p>
+  <h1>Safety Button</h1>
+  <p class="tagline">A personal emergency alert device for families.</p>
 
-  <p>Safety Button is a personal emergency alert device. When the button is pressed, the device sends a text message and places an automated voice call to the phone numbers configured by the device owner. This policy explains what information the service handles and how it is used.</p>
+  <p>Safety Button is a small wearable button carried by a child or other family member. When the button is pressed and held, the device sends a text message and places an automated voice call to the phone numbers its owner has configured — typically the child's parents or guardians — including the device's location so they can respond.</p>
 
-  <h2>Information we collect</h2>
+  <p>The device connects over the cellular network and works anywhere with coverage. It has no screen and no other functions. It is operated by Kiran Akkineni and is currently in limited use by the operator's own family.</p>
+
+  <h2>What the messaging program does</h2>
+  <p><strong>Program name:</strong> Safety Button Alerts</p>
+  <p>Recipients receive text messages from a Safety Button device in three situations:</p>
   <ul>
-    <li><strong>Phone numbers</strong> of the recipients the device owner chooses to alert.</li>
-    <li><strong>Device location</strong> (GPS coordinates, or an approximate location derived from nearby cell towers) captured at the moment the button is pressed and during the alert period that follows.</li>
-    <li><strong>Device status</strong>, such as battery level and periodic check-ins used to confirm the device is working.</li>
+    <li><strong>Emergency alert.</strong> When the device owner presses and holds the button, every designated recipient receives a text message with the device's location, and an automated voice call.</li>
+    <li><strong>Location updates.</strong> For up to 30 minutes after an alert, recipients receive a location update text approximately once per minute.</li>
+    <li><strong>Device status.</strong> Occasional messages about the device itself, such as a low battery notice or a warning that the device has stopped checking in.</li>
   </ul>
+  <p>No marketing, promotional, or advertising messages are ever sent through this program.</p>
 
-  <h2>How we use it</h2>
-  <p>Information is used for one purpose: delivering alerts from the device to the recipients the owner has designated. Location is included in those alerts so recipients can find the person carrying the device.</p>
+  <h2>How recipients consent to receive messages</h2>
+  <div class="callout">
+    <p>Phone numbers are added to a device only by that device's owner, and only after the person who owns the number has given consent in person.</p>
+    <p>During device setup, the owner asks each prospective recipient — in person or by phone — whether they agree to receive emergency alert text messages from the device, and tells them the following:</p>
+    <p><em>"Safety Button will send you emergency alert and location text messages from this device. Message frequency varies. Message and data rates may apply. Reply STOP at any time to unsubscribe, or HELP for help. Our privacy policy and messaging terms are at kiran-akkineni.github.io/safety-button-site."</em></p>
+    <p>Only after the person agrees does the owner enter their mobile number into the device's configuration. Consent is active and affirmative: no number is ever pre-filled, pre-checked, or added by default.</p>
+  </div>
+  <p>There is no public sign-up form, no web-based sign-up, and no keyword sign-up campaign. Numbers are never purchased, rented, imported from lists, or obtained from any third party. Recipients are limited to the device owner's own family members and designated emergency contacts.</p>
 
-  <h2>Mobile numbers are never shared</h2>
-  <p>We do not sell, rent, or share mobile phone numbers or messaging consent with third parties or affiliates for marketing or promotional purposes. Numbers are used only to deliver alerts from the owner's own device, and are disclosed only to the telecommunications provider that transmits those messages.</p>
+  <h2>How recipients opt out</h2>
+  <p>Reply <strong>STOP</strong> to any message to stop receiving messages immediately. Reply <strong>HELP</strong> for help. A recipient may also ask the device owner to remove their number from the device at any time, which takes effect immediately.</p>
 
-  <h2>Consent</h2>
-  <p>Recipients are added by the device owner. Each recipient gives consent before their number is added, and the owner can remove any number at any time. There is no public sign-up.</p>
-
-  <h2>Message frequency</h2>
-  <p>Message frequency varies and depends entirely on device use. Most devices send one status message per day or fewer. When the button is pressed, recipients receive an alert message followed by location updates approximately once per minute for up to 30 minutes.</p>
-
-  <h2>Message and data rates</h2>
-  <p>Message and data rates may apply.</p>
-
-  <h2>Opting out</h2>
-  <p>Reply STOP to any message to stop receiving messages. Reply HELP for help. A recipient may also ask the device owner to remove their number at any time.</p>
-
-  <h2>Data retention</h2>
-  <p>Alert and location records are retained only as long as needed to operate and troubleshoot the service, and are deleted when a device is retired or on request from the device owner.</p>
+  <h2>Message frequency and cost</h2>
+  <p>Message frequency varies and depends on device use. In normal operation a device sends one status message per day or fewer. When the button is pressed, recipients receive one alert message followed by location updates approximately once per minute for up to 30 minutes. Message and data rates may apply.</p>
 
   <h2>Contact</h2>
-  <p>Questions about this policy can be sent to <a href="mailto:kiran.home@gmail.com">kiran.home@gmail.com</a>.</p>
+  <p>Kiran Akkineni · <a href="mailto:kiran.home@gmail.com">kiran.home@gmail.com</a></p>
 
-  <footer>Safety Button is a personal project, not a substitute for emergency services. In an emergency, call 911.</footer>
+  <footer>
+    <p>Safety Button is a personal alert device, not a monitored emergency service. It does not contact police, fire, or medical responders. In an emergency, call 911.</p>
+    <p><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Messaging Terms &amp; Conditions</a></p>
+  </footer>
 </main>
 </body>
 </html>
